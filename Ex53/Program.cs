@@ -46,6 +46,5 @@ void ChangeRows (int[,] inputMatrix)
 
 int[,] resultMatrix = GetArray(rows, columns);
 PrintArray(resultMatrix);
-Console.WriteLine("Результат: ");
-ChangeRows(resultMatrix);
+Console.WriteLine("Результат: ");ChangeRows(resultMatrix);
 PrintArray(resultMatrix);
