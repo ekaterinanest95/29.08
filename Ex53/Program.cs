@@ -1,9 +1,9 @@
-﻿// замена строк в двухмерном
+﻿// замена строк в двухмерном массиве
 
 int rows = Convert.ToInt32(Console.ReadLine());
 int columns = Convert.ToInt32(Console.ReadLine());
 
-/// summary - описание метода, 9слэша
+/// summary - описание метода, 3 слэша
 /// m- строчик, n - столбцы  
 
 int[,] GetArray(int m, int n)
@@ -29,8 +29,8 @@ void PrintArray(int[,] matrix)
         {
             Console.Write(matrix[i, j] + "\t");
         }
+        Console.WriteLine();
     }
-    Console.WriteLine();
 }
 
 void ChangeRows (int[,] inputMatrix)
